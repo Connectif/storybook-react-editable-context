@@ -1,7 +1,7 @@
 {
   "name": "storybook-react-editable-context",
   "main": "dist/preset.js",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "An editable context for react",
   "author": "Jose Meroño",
   "license": "MIT",
