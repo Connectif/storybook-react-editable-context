@@ -1,8 +1,8 @@
 import { addons, types } from "@storybook/addons";
 
-import { ADDON_ID, TOOL_ID } from "../constants";
+import { ADDON_ID, TOOL_ID } from "constants";
 
-import { EditableContext } from "../EditableContextDecorator";
+import { EditableContext } from "EditableContextDecorator";
 
 // Register the addon
 addons.register(ADDON_ID, () => {
