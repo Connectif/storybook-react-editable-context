@@ -14,7 +14,7 @@
   ],
   "scripts": {
     "clean": "rimraf ./dist",
-    "buildBabel": "concurrently \"yarn buildBabel:cjs\" \"yarn buildBabel:esm\"",
+    "buildBabel": "concurrently \"yarn buildBabel:cjs\"",
     "buildBabel:cjs": "babel ./src -d ./dist --extensions \".js,.jsx,.ts,.tsx\"",
     "buildTsc": "tsc --declaration --emitDeclarationOnly --outDir ./dist/ts",
     "prebuild": "yarn clean",
