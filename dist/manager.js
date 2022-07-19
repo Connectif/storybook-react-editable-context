@@ -2,9 +2,9 @@
 
 var _addons = require("@storybook/addons");
 
-var _constants = require("constants");
+var _constants = require("./constants");
 
-var _EditableContextDecorator = require("EditableContextDecorator");
+var _EditableContextDecorator = require("./EditableContextDecorator");
 
 // Register the addon
 _addons.addons.register(_constants.ADDON_ID, function () {

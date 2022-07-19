@@ -1,11 +1,11 @@
 {
   "name": "storybook-react-editable-context",
   "main": "dist/index.js",
-  "version": "0.0.15",
+  "version": "0.0.10",
   "description": "An editable context for react",
   "author": "Jose Meroño",
   "license": "MIT",
-  "module": "dist/cjs/index.js",
+  "module": "dist/index.js",
   "types": "dist/ts/EditableContext/index.d.ts",
   "files": [
     "dist/**/*",
