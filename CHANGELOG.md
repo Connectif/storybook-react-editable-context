@@ -1,3 +1,18 @@
+# v0.0.9 (Fri Jul 15 2022)
+
+#### ⚠️ Pushed to `main`
+
+- . ([@Connectif](https://github.com/Connectif))
+- Added dist ([@jmermar](https://github.com/jmermar))
+- First commit ([@jmermar](https://github.com/jmermar))
+
+#### Authors: 2
+
+- Connectif ([@Connectif](https://github.com/Connectif))
+- Jose Meroño ([@jmermar](https://github.com/jmermar))
+
+---
+
 # v0.0.6 (Fri Jul 15 2022)
 
 #### ⚠️ Pushed to `main`
