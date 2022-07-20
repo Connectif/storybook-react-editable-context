@@ -42,5 +42,5 @@ For example, for adding it globally you can write the following:
 
 `editableContextDecorator` takes the following parameters:
 
-* Ctx. The context that will be editable from the toolbar. It is created with CreateContext. Only contexts which are an object containing just string values are suported.
-* params. The different parameters of the context that will be editable from the toolbar. Each parameters has its display name, its field's name, a list with all the values, a list containing the names for each value, and the default value (which overrides the context's default value for that field).
+* `Ctx`. The context that will be editable from the toolbar. It is created with CreateContext. Only contexts which are an object containing just string values are suported.
+* `params`. The different parameters of the context that will be editable from the toolbar. Each parameters has its display name, its field's name, a list with all the values, a list containing the names for each value, and the default value (which overrides the context's default value for that field).
