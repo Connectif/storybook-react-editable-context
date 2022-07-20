@@ -26,6 +26,12 @@ function _iterableToArrayLimit(arr, i) { var _i = arr && (typeof Symbol !== "und
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 var editableContext = {};
+/**
+ * make a decorator for creating the context you want to edit.
+ * @param Ctx the context you want to be able to edit
+ * @param params a list with the parameters you want to be able to edit in the context, which are references to Ctx parameters
+ **/
+
 exports.editableContext = editableContext;
 
 var editableContextDecorator = function editableContextDecorator(Ctx, params) {
