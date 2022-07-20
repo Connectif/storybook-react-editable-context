@@ -2,6 +2,15 @@ import { makeDecorator, useGlobals } from "@storybook/addons";
 import React, { Context } from "react";
 import { EditableContext } from "./ReactEditableContext";
 
+
+/**
+ * A struct for indicating an editable context field
+ * @param name the display name on the tooltip
+ * @param field the field of the context associated to this Param
+ * @param vals a list of the values you can select for the field in the tooltip (they must be strings)
+ * @param names a list of the names associated with the values. They should appear in the same order.
+ * @param default the default value selected
+ **/
 type Param = {
   name: string;
   field: string;
@@ -17,6 +26,12 @@ type EditableContext = {
 
 let editableContext: EditableContext = {};
 
+
+/**
+ * make a decorator for creating the context you want to edit.
+ * @param Ctx the context you want to be able to edit
+ * @param params a list with the parameters you want to be able to edit in the context, which are references to Ctx parameters
+ **/
 const editableContextDecorator = (Ctx: Context<any>, params: Param[]) => {
   editableContext.params = params;
   editableContext.val = {};
