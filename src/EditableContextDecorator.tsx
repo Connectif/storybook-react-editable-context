@@ -4,18 +4,28 @@ import { EditableContext } from "./ReactEditableContext";
 
 
 /**
- * A struct for indicating an editable context field
- * @param name the display name on the tooltip
- * @param field the field of the context associated to this Param
- * @param vals a list of the values you can select for the field in the tooltip (they must be strings)
- * @param names a list of the names associated with the values. They should appear in the same order.
- * @param default the default value selected
+ * a struct for indicating an editable context field
  **/
 type Param = {
+  /**
+   * the display name on the tooltip
+   **/
   name: string;
+  /**
+   * the field of the context associated to this Param
+   **/
   field: string;
+  /**
+   * a list of the values you can select for the field in the tooltip (they must be strings)
+   **/
   vals: string[];
+  /**
+   * a list of the names associated with the values. They should appear in the same order.
+   **/
   names: string[];
+  /**
+   * the default value selected
+   **/
   default: string;
 };
 
