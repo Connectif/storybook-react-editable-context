@@ -1,3 +1,33 @@
+# v1.0.1 (Wed Jul 20 2022)
+
+#### 🐛 Bug Fix
+
+- Merge pull request #2 from Connectif/dev [#3](https://github.com/Connectif/storybook-react-editable-context/pull/3) ([@Connectif](https://github.com/Connectif))
+- Dev [#2](https://github.com/Connectif/storybook-react-editable-context/pull/2) (jose@connectif.es [@Connectif](https://github.com/Connectif))
+- Trying to simplify the import syntax [#1](https://github.com/Connectif/storybook-react-editable-context/pull/1) (jose@connectif.es)
+
+#### ⚠️ Pushed to `main`
+
+- Updated readme (jose@connectif.es)
+- Fixed imports (jose@connectif.es)
+- Builded after edit (jose@connectif.es)
+- Fixed bug caused by moving manager.js (jose@connectif.es)
+- Fixed preset again (jose@connectif.es)
+- Fixed preset.js (jose@connectif.es)
+- Fixed build (jose@connectif.es)
+- Fixed bug with index (jose@connectif.es)
+- Fixed entry point (jose@connectif.es)
+- . ([@Connectif](https://github.com/Connectif))
+- Added dist (jose@connectif.es)
+- First commit (jose@connectif.es)
+
+#### Authors: 2
+
+- Connectif ([@Connectif](https://github.com/Connectif))
+- Jose Meroño ([@jmermar](https://github.com/jmermar))
+
+---
+
 # v0.0.17 (Wed Jul 20 2022)
 
 #### 🐛 Bug Fix
