@@ -18,6 +18,7 @@ Then add EditableContextDecorator either locally or globally.
 You will need to specify the react Context you want to edit, as well as the parameters you want to be able to edit, with the values you can choose and the default value.
 
 For example, for adding it globally you can write the following:
+
     const decorators = [
         editableContextDecorator(MyContext, [
             {
@@ -38,6 +39,8 @@ For example, for adding it globally you can write the following:
     ];
 
 ## Options
+
 `editableContextDecorator` takes the following parameters:
-    - Ctx. The context that will be editable from the toolbar. It is created with CreateContext. Only contexts which are an object containing just string values are suported.
-    - params. The different parameters of the context that will be editable from the toolbar. Each parameters has its display name, its field's name, a list with all the values, a list containing the names for each value, and the default value (which overrides the context's default value for that field).
+
+* Ctx. The context that will be editable from the toolbar. It is created with CreateContext. Only contexts which are an object containing just string values are suported.
+* params. The different parameters of the context that will be editable from the toolbar. Each parameters has its display name, its field's name, a list with all the values, a list containing the names for each value, and the default value (which overrides the context's default value for that field).

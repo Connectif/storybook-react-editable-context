@@ -13,7 +13,7 @@ var _api = require("@storybook/api");
 
 var _components = require("@storybook/components");
 
-var _constants = require("../constants");
+var _constants = require("./constants");
 
 var _addons = _interopRequireDefault(require("@storybook/addons"));
 

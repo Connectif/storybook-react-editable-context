@@ -40,6 +40,7 @@
     "@storybook/core-events": "^6.5.9",
     "@storybook/react": "^6.5.8",
     "@storybook/theming": "^6.5.8",
+    "@storybook/ui": "^6.5.9",
     "auto": "^10.3.0",
     "babel-loader": "^8.1.0",
     "boxen": "^5.0.1",

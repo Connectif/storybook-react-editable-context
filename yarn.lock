@@ -2542,25 +2542,7 @@
     "core-js" "^3.8.2"
     "regenerator-runtime" "^0.13.7"
 
-"@storybook/ui@6.5.8":
-  "integrity" "sha512-rL09kxgY9pCVbxr/VUK4b5FL5VbALfciZR+50sNT1EcTDb9k0OPeqx7a4Ptc+KNkgyPdSTxUGvhzVqH5PYrhZQ=="
-  "resolved" "https://registry.npmjs.org/@storybook/ui/-/ui-6.5.8.tgz"
-  "version" "6.5.8"
-  dependencies:
-    "@storybook/addons" "6.5.8"
-    "@storybook/api" "6.5.8"
-    "@storybook/channels" "6.5.8"
-    "@storybook/client-logger" "6.5.8"
-    "@storybook/components" "6.5.8"
-    "@storybook/core-events" "6.5.8"
-    "@storybook/router" "6.5.8"
-    "@storybook/semver" "^7.3.2"
-    "@storybook/theming" "6.5.8"
-    "core-js" "^3.8.2"
-    "regenerator-runtime" "^0.13.7"
-    "resolve-from" "^5.0.0"
-
-"@storybook/ui@6.5.9":
+"@storybook/ui@^6.5.9", "@storybook/ui@6.5.9":
   "integrity" "sha512-ryuPxJgtbb0gPXKGgGAUC+Z185xGAd1IvQ0jM5fJ0SisHXI8jteG3RaWhntOehi9qCg+64Vv6eH/cj9QYNHt1Q=="
   "resolved" "https://registry.npmjs.org/@storybook/ui/-/ui-6.5.9.tgz"
   "version" "6.5.9"
@@ -2577,6 +2559,24 @@
     "core-js" "^3.8.2"
     "memoizerific" "^1.11.3"
     "qs" "^6.10.0"
+    "regenerator-runtime" "^0.13.7"
+    "resolve-from" "^5.0.0"
+
+"@storybook/ui@6.5.8":
+  "integrity" "sha512-rL09kxgY9pCVbxr/VUK4b5FL5VbALfciZR+50sNT1EcTDb9k0OPeqx7a4Ptc+KNkgyPdSTxUGvhzVqH5PYrhZQ=="
+  "resolved" "https://registry.npmjs.org/@storybook/ui/-/ui-6.5.8.tgz"
+  "version" "6.5.8"
+  dependencies:
+    "@storybook/addons" "6.5.8"
+    "@storybook/api" "6.5.8"
+    "@storybook/channels" "6.5.8"
+    "@storybook/client-logger" "6.5.8"
+    "@storybook/components" "6.5.8"
+    "@storybook/core-events" "6.5.8"
+    "@storybook/router" "6.5.8"
+    "@storybook/semver" "^7.3.2"
+    "@storybook/theming" "6.5.8"
+    "core-js" "^3.8.2"
     "regenerator-runtime" "^0.13.7"
     "resolve-from" "^5.0.0"
 

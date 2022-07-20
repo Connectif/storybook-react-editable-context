@@ -3,17 +3,23 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports["default"] = void 0;
+Object.defineProperty(exports, "editableContextDecorator", {
+  enumerable: true,
+  get: function get() {
+    return _EditableContextDecorator.editableContextDecorator;
+  }
+});
+Object.defineProperty(exports, "EditableContext", {
+  enumerable: true,
+  get: function get() {
+    return _ReactEditableContext.EditableContext;
+  }
+});
 
 var _EditableContextDecorator = require("./EditableContextDecorator");
+
+var _ReactEditableContext = require("./ReactEditableContext");
 
 if (module && module.hot && module.hot.decline) {
   module.hot.decline();
 }
-
-// make it work with --isolatedModules
-var _default = {
-  editableContextDecorator: _EditableContextDecorator.editableContextDecorator,
-  EditableContext: _EditableContextDecorator.EditableContext
-};
-exports["default"] = _default;

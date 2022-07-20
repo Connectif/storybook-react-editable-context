@@ -2,7 +2,8 @@ if (module && module.hot && module.hot.decline) {
   module.hot.decline();
 }
 
-import { editableContextDecorator, EditableContext } from "./EditableContextDecorator";
+import { editableContextDecorator } from "./EditableContextDecorator";
+import { EditableContext } from "./ReactEditableContext";
 
 // make it work with --isolatedModules
-export default {editableContextDecorator, EditableContext};
+export { editableContextDecorator, EditableContext };

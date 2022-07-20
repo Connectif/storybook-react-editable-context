@@ -4,17 +4,17 @@ var _addons = require("@storybook/addons");
 
 var _constants = require("./constants");
 
-var _EditableContextDecorator = require("./EditableContextDecorator");
+var _ReactEditableContext = require("./ReactEditableContext");
 
 // Register the addon
 _addons.addons.register(_constants.ADDON_ID, function () {
   _addons.addons.add(_constants.TOOL_ID, {
     type: _addons.types.TOOL,
-    title: "ReactEditableContext",
+    title: "React Editable Context",
     match: function match(_ref) {
       var viewMode = _ref.viewMode;
       return !!(viewMode && viewMode.match(/^(story|docs)$/));
     },
-    render: _EditableContextDecorator.EditableContext
+    render: _ReactEditableContext.EditableContext
   });
 });
